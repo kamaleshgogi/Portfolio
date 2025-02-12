@@ -14,7 +14,7 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Projects</h1>
         <div className="projects-grid">
             
             <div className="project">
@@ -23,7 +23,7 @@ function Project() {
                 <p>Worked on a personal project that reccomends movies that you would like based on your previous watch history and also keeps a catelog of all the movies you liked.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/kamaleshgogi/pokedex" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://kamaleshgogi.github.io/pokedex/" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/kamaleshgogi/pokedex" target="_blank" rel="noreferrer"><h2>Pokedex</h2></a>
                 <p>Design and developed an interactive pokemon collections site which displays stats and keeps count of ur collected Pokemon.</p>
             </div>
